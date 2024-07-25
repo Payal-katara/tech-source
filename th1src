@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--code for the HEADER PART.......-->
+<head>
+    <!--STYLE CSS code for HEADER............-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Hood Agra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color:white;
+            color:black;
+        }
+        .logo {
+            font-size: 19px;
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .cta {
+            display: flex;
+            align-items: center;
+        }
+        .cta a {
+            color:black;
+            text-decoration:none;
+            font-size: 16px;
+            margin-right: 20px;
+        }
+        .cta a.sign-up {
+            display: flex;
+            align-items: center;
+        }
+        .cta a.sign-up i {
+            margin-right: 5px;
+        }
+        .cta .explore {
+            display: flex;
+            align-items: center;
+            background-color: #f39c12;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .cta .explore i {
+            margin-left: 10px;
+            transform: rotate(45deg);
+        }
+ </style>
+
+    <!--CSS CODE for HERO SECTION.................-->
+<style>
+    .orange {
+        color: orange;
+    }
+    .white {
+        color: white;
+    }
+
+    section {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    .hero-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: purple;
+        color: white;
+        padding: 50px;
+        height: 65vh;
+    }
+    .tagline {
+        max-width: 60%;
+    }
+    .tagline h1 {
+        font-size: 3rem;
+        margin: 0 0 20px 0;
+    }
+    .join-button {
+        display: inline-flex;
+        align-items: center;
+        background-color: orange;
+        color: black;
+        padding: 10px 20px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .join-button .arrow {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: orange;
+        color: black;
+        border-radius: 50%;
+        margin-left: 10px;
+        padding: 10px;
+    }
+    .hero-gif img {
+        max-width: 200%;
+        height: auto;
+    }
+    @media (max-width: 768px) {
+        .hero-section {
+            flex-direction: column;
+            text-align: center;
+        }
+        .tagline {
+            max-width: 100%;
+        }
+        .hero-gif {
+            margin-top: 20px;
+        }
+    }
+</style>
+</head>
+<body>
+
+  <!--HTML CODE for HEADER PART.............-->
+
+  <header>
+    <div class="logo">
+        <img src="logo.png">
+        <span><b>Tech Hood Agra</b></span>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#"><b>Home</b></a></li>
+            <li><a href="#"><b>Categories</b></a></li>
+            <li><a href="#"><b>Events</b></a></li>
+            <li><a href="#"><b>About Us</b></a></li>
+        </ul>
+    </nav>
+    <div class="cta">
+        <a href="#" class="sign-up"><i class="fas fa-lock"></i> Sign Up</a>
+        <button class="explore">EXPLORE <i class="fas fa-paper-plane"></i></button>
+    </div>
+</header>
+
+    <!--HTML CODE for HER0 SECTION...............-->
+
+    <section class="hero-section">
+    <div class="tagline">
+        <h1><i><span class="white">INTRODUCING</span> <span class="orange">A</span> <span class="white">TECH</span><br><span class="orange">PLATFORM</span> <span class="white">DESIGNED</span><br><span class="orange">TO</span> <span class="white">NURTURE</span> <span class="white">AND</span> <span class="orange">GROW</span><br><span class="orange">TECH</span> <span class="white">MINDS</span><span class="orange">!</span>
+        </i></h1>
+        <a href="#" class="join-button">Join Community <span class="arrow">→</span></a>
+    </div>
+    <div class="hero-gif">
+        <img src="icon3.png">
+    </div>
+</section>
+
+
+</body>
+</html>
